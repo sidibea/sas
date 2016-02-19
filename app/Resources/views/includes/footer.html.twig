@@ -3,7 +3,7 @@
 
         <div class="widget widget_text">
 
-            <h4 class="widget-title">Text widget</h4>
+            <h4 class="widget-title">A Propos de SAS</h4>
 
             <div class="textwidget">
 
@@ -23,34 +23,39 @@
 
         <div class="widget widget_recent_entries">
 
-            <h4 class="widget-title">Latest Posts</h4>
+            <h4 class="widget-title">Actualite</h4>
 
             <ul>
                 <li>
+                    {% set runtimeConfig = {"thumbnail": {"size": [1920, 650] }} %}
+                    <img src="{{ 'front/content/blog-post/70x70-1.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
 
-                    <img src="_content/blog-post/70x70-1.png" alt="">
 
-                    <a href="index.html#">Aliquam accumsan pretium volutpat. </a>
+                    <a href="#">Aliquam accumsan pretium volutpat. </a>
 
-                    <p class="post-date"><small>22 Nov by <a href="index.html#">Admin</a> in <a href="index.html#">News</a></small></p>
-
-                </li>
-                <li>
-
-                    <img src="_content/blog-post/70x70-2.png" alt="">
-
-                    <a href="index.html#">Fusce sagittis erat felis varius duis.</a>
-
-                    <p class="post-date"><small>20 Nov by <a href="index.html#">Admin</a> in <a href="index.html#">News</a></small></p>
+                    <p class="post-date"><small>22 Nov by <a href="#">Admin</a> in <a href="#">News</a></small></p>
 
                 </li>
                 <li>
 
-                    <img src="_content/blog-post/70x70-3.png" alt="">
+                    {% set runtimeConfig = {"thumbnail": {"size": [1920, 650] }} %}
+                    <img src="{{ 'front/content/blog-post/70x70-2.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+
+                    <a href="#">Fusce sagittis erat felis varius duis.</a>
+
+                    <p class="post-date"><small>20 Nov by <a href="">Admin</a> in <a href="#">News</a></small></p>
+
+                </li>
+                <li>
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [1920, 650] }} %}
+                    <img src="{{ 'front/content/blog-post/70x70-3.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
 
                     <a href="index.html#">Vivamus tincidunt nisi et dolor auctor.</a>
 
-                    <p class="post-date"><small>18 Nov by <a href="index.html#">Admin</a> in <a href="index.html#">News</a></small></p>
+                    <p class="post-date"><small>20 Nov by <a href="">Admin</a> in <a href="#">News</a></small></p>
 
                 </li>
             </ul>
@@ -74,7 +79,7 @@
 
         <div class="widget widget_text">
 
-            <h4 class="widget-title">Get In Touch</h4>
+            <h4 class="widget-title">Trouver Nous</h4>
 
             <div class="textwidget">
 

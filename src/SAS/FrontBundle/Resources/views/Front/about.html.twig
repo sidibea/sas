@@ -76,7 +76,7 @@
 
             <div class="headline">
 
-                <h3>Meet our beautiful team</h3>
+                <h3>Rencontrer notre equipe</h3>
 
             </div><!-- end .headline -->
 
@@ -89,8 +89,8 @@
             <div class="team-member">
 
                 <div class="team-member-preview">
-
-                    <img src="_content/team/270x250-1.png" alt="">
+                    {% set runtimeConfig = {"thumbnail": {"size": [270, 250] }} %}
+                    <img src="{{ 'front/_content/team/270x250-1.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
 
                     <div class="team-member-overlay"></div>
 
@@ -101,15 +101,15 @@
 
                 <div class="social-media">
 
-                    <a class="social-icon facebook-icon" href="about-us.html#">
+                    <a class="social-icon facebook-icon" href="#">
                         <i class="fa fa-facebook"></i>
                     </a>
 
-                    <a class="social-icon twitter-icon" href="about-us.html#">
+                    <a class="social-icon twitter-icon" href="#">
                         <i class="fa fa-twitter"></i>
                     </a>
 
-                    <a class="social-icon googleplus-icon" href="about-us.html#">
+                    <a class="social-icon googleplus-icon" href="#">
                         <i class="fa fa-google-plus"></i>
                     </a>
 
@@ -124,7 +124,8 @@
 
                 <div class="team-member-preview">
 
-                    <img src="_content/team/270x250-2.png" alt="">
+                    {% set runtimeConfig = {"thumbnail": {"size": [270, 250] }} %}
+                    <img src="{{ 'front/_content/team/270x250-2.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
 
                     <div class="team-member-overlay"></div>
 
@@ -135,15 +136,15 @@
 
                 <div class="social-media">
 
-                    <a class="social-icon facebook-icon" href="about-us.html#">
+                    <a class="social-icon facebook-icon" href="#">
                         <i class="fa fa-facebook"></i>
                     </a>
 
-                    <a class="social-icon twitter-icon" href="about-us.html#">
+                    <a class="social-icon twitter-icon" href="#">
                         <i class="fa fa-twitter"></i>
                     </a>
 
-                    <a class="social-icon googleplus-icon" href="about-us.html#">
+                    <a class="social-icon googleplus-icon" href="#">
                         <i class="fa fa-google-plus"></i>
                     </a>
 
@@ -158,7 +159,8 @@
 
                 <div class="team-member-preview">
 
-                    <img src="_content/team/270x250-3.png" alt="">
+                    {% set runtimeConfig = {"thumbnail": {"size": [270, 250] }} %}
+                    <img src="{{ 'front/_content/team/270x250-3.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
 
                     <div class="team-member-overlay"></div>
 
@@ -169,15 +171,15 @@
 
                 <div class="social-media">
 
-                    <a class="social-icon facebook-icon" href="about-us.html#">
+                    <a class="social-icon facebook-icon" href="#">
                         <i class="fa fa-facebook"></i>
                     </a>
 
-                    <a class="social-icon twitter-icon" href="about-us.html#">
+                    <a class="social-icon twitter-icon" href="#">
                         <i class="fa fa-twitter"></i>
                     </a>
 
-                    <a class="social-icon googleplus-icon" href="about-us.html#">
+                    <a class="social-icon googleplus-icon" href="#">
                         <i class="fa fa-google-plus"></i>
                     </a>
 
@@ -192,7 +194,8 @@
 
                 <div class="team-member-preview">
 
-                    <img src="_content/team/270x250-4.png" alt="">
+                    {% set runtimeConfig = {"thumbnail": {"size": [270, 250] }} %}
+                    <img src="{{ 'front/_content/team/270x250-4.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
 
                     <div class="team-member-overlay"></div>
 
@@ -203,15 +206,15 @@
 
                 <div class="social-media">
 
-                    <a class="social-icon facebook-icon" href="about-us.html#">
+                    <a class="social-icon facebook-icon" href="#">
                         <i class="fa fa-facebook"></i>
                     </a>
 
-                    <a class="social-icon twitter-icon" href="about-us.html#">
+                    <a class="social-icon twitter-icon" href="#">
                         <i class="fa fa-twitter"></i>
                     </a>
 
-                    <a class="social-icon googleplus-icon" href="about-us.html#">
+                    <a class="social-icon googleplus-icon" href="#">
                         <i class="fa fa-google-plus"></i>
                     </a>
 
@@ -237,7 +240,8 @@
                                 <div class="testimonial fixed">
 
                                             <span>
-                                                <img src="_content/testimonials/140x140-1.png" alt="">
+                                                {% set runtimeConfig = {"thumbnail": {"size": [140, 140] }} %}
+                                                <img src="{{ 'front/_content/testimonials/140x140-1.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
                                             </span>
 
                                     <blockquote>
@@ -260,7 +264,8 @@
                                 <div class="testimonial fixed">
 
                                             <span>
-                                                <img src="_content/testimonials/140x140-2.png" alt="">
+                                                {% set runtimeConfig = {"thumbnail": {"size": [140, 140] }} %}
+                                                <img src="{{ 'front/_content/testimonials/140x140-2.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
                                             </span>
 
                                     <blockquote>
@@ -283,7 +288,8 @@
                                 <div class="testimonial fixed">
 
                                             <span>
-                                                <img src="_content/testimonials/140x140-3.png" alt="">
+                                                {% set runtimeConfig = {"thumbnail": {"size": [140, 140] }} %}
+                                                <img src="{{ 'front/_content/testimonials/140x140-3.png' | imagine_filter('my_thumb', runtimeConfig) }}" />
                                             </span>
 
                                     <blockquote>
@@ -316,7 +322,7 @@
 
             <div class="headline">
 
-                <h3>Our capabilities</h3>
+                <h3>Nos Competances</h3>
 
             </div><!-- end .headline -->
 
@@ -341,8 +347,8 @@
             <div class="fixed">
 
                 <div class="progress-bar-description">
-                    Skills in Photoshop CS6
-                    <span style="left:83%">83%</span>
+                    BTP
+                    <span style="left:99%">99%</span>
                 </div><!-- end .progress-bar-description -->
 
                 <div class="progress-bar">
@@ -356,7 +362,7 @@
             <div class="fixed">
 
                 <div class="progress-bar-description">
-                    Skills in Corel Draw v 11 - 15
+                   Hydrocarbures
                     <span style="left:92%">92%</span>
                 </div><!-- end .progress-bar-description -->
 
@@ -371,7 +377,7 @@
             <div class="fixed">
 
                 <div class="progress-bar-description">
-                    Skills in 3D Studio Max
+                    Elevages
                     <span style="left:40%">40%</span>
                 </div><!-- end .progress-bar-description -->
 
@@ -390,17 +396,15 @@
 
             <div class="accordion">
 
-                <a class="accordion-item" href="about-us.html#">Lorem ipsum dolor sit</a>
+                <a class="accordion-item" href="#">SAS - Agences BTP</a>
 
                 <div class="accordion-item-content">
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mauris quam, scelerisque pellentesque
-                        adipiscing at, eleifend et mi. Quisque imperdiet tempus sem. Nam egestas sapien eget elit consequat dapibus
-                        proin at. </p>
+                    <p>Le coeur de son activité s'exerce dans le bâtiment, les ouvrages d'art, le génie civil auxquels sont venues s'adjoindre, au fil des années, des filiales spécialisées dans le domaine des maisons individuelles, du génie climatique, de la plomberie-sanitaire, de l'électricité de la peinture et du ravalement. </p>
 
                 </div><!-- end .accordion-item-content -->
 
-                <a class="accordion-item" href="about-us.html#">Donec aptent hendrerit</a>
+                <a class="accordion-item" href="#">Commerce General</a>
 
                 <div class="accordion-item-content">
 
@@ -410,7 +414,7 @@
 
                 </div><!-- end .accordion-item-content -->
 
-                <a class="accordion-item" href="about-us.html#">Quisque arcu interdum</a>
+                <a class="accordion-item" href="#">Hydrocarbures</a>
 
                 <div class="accordion-item-content">
 
@@ -420,7 +424,7 @@
 
                 </div><!-- end .accordion-item-content -->
 
-                <a class="accordion-item" href="about-us.html#">Donec pulvinar ipsum</a>
+                <a class="accordion-item" href="#">Location de voiture</a>
 
                 <div class="accordion-item-content">
 
