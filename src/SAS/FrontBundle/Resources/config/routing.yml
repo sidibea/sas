@@ -7,3 +7,6 @@ sas_front_homepage2:
 sas_front_about:
     path:     /{_locale}/about
     defaults: { _controller: SASFrontBundle:Front:about }
+sas_front_contact:
+    path:     /{_locale}/contact
+    defaults: { _controller: SASFrontBundle:Front:contact }

@@ -1,0 +1,128 @@
+{% extends 'SASFrontBundle::layout.html.twig' %}
+
+{% block title %} A Propos de Station Abdoulaye Service  {% endblock %}
+
+{% block content %}
+    <div id="page-header" style="background-image:url({{ asset('front/_content/backgrounds/1920x250-6.jpg') }}); margin-bottom:0;">
+
+        <div class="row">
+            <div class="span12">
+
+                <h3>contact</h3>
+
+            </div><!-- end .span12 -->
+        </div><!-- end .row -->
+
+    </div><!-- end #page-header -->
+
+    <div class="google-map map"
+         data-zoom="14"
+         data-address="Gao, Mali"
+         data-caption="616 Travis Street, Palm Beach, <br>FL 3340, United States<br>Phone: +1 (234) 567 890 <br>Fax: +2 (234) 567 890 <br>Email: <a href='mailto:#'>office@integrity.com</a>">
+        <p>This will be replaced with the Google Map.</p>
+    </div>
+
+    <div class="row">
+        <div class="span6">
+
+            <div class="row">
+                <div class="span3">
+
+                    <div class="headline-2">
+
+                        <h4>Adresse</h4>
+
+                    </div><!-- end .headline-2 -->
+
+                    <p>
+                        Château Secteur  I  Gao Mali, <br class="hidden-tablet">
+                        Cite des Askia Mohamed
+                    </p>
+
+                </div><!-- end .span3 -->
+                <div class="span3">
+
+                    <div class="headline-2">
+
+                        <h4>Email</h4>
+
+                    </div><!-- end .headline-2 -->
+
+                    <p>
+                        <a href="mailto:#">contact@sas-mali.com</a>
+                    </p>
+
+                </div><!-- end .span3 -->
+            </div><!-- end .row -->
+
+            <br>
+
+            <div class="row">
+                <div class="span3">
+
+                    <div class="headline-2">
+
+                        <h4>Phone</h4>
+
+                        <p>
+                            P: (+223) 76 05 14 41 <br>
+                            F: (+223) 76 17 27 35
+                        </p>
+
+                    </div><!-- end .headline-2 -->
+
+                </div><!-- end .span3 -->
+                <div class="span3">
+
+                    <div class="headline-2">
+
+                        <h4>Support</h4>
+
+                    </div><!-- end .headline-2 -->
+
+                    <p>
+                        Lundi-Vendredi: 9:30 - 6:30<br>
+                        Samedi: 10:00 - 5:00<br>
+                        Dimanche: Ferier
+                    </p>
+
+                </div><!-- end .span3 -->
+            </div><!-- end .row -->
+
+        </div><!-- end .span6 -->
+        <div class="span6">
+
+            <div class="headline-2">
+
+                <h4>Envoyer nous un message</h4>
+
+            </div><!-- end .headline-2 -->
+
+            <form class="fixed" id="contact-form" name="contact-form" method="post" action="http://bitpublimedia.ro/themeforest/integrity-html/integrity-architecture/_layout/php/send.php">
+                <fieldset>
+                    <div id="formstatus"></div>
+                    <p>
+                        <input class="span4" type="text" id="name" name="name" value="" placeholder="Nom" />
+                    </p>
+                    <p>
+                        <input class="span4" type="text" id="email" name="email" value="" placeholder="Email" />
+                    </p>
+                    <p>
+                        <input class="span4" type="text" id="subject" name="subject" value="" placeholder="Sujet"  />
+                    </p>
+                    <p>
+                        <textarea class="span6" id="message" name="message" rows="3" cols="25" placeholder="Message"></textarea>
+                    </p>
+                    <p class="last">
+                        <input id="submit" type="submit" name="submit" class="btn" value="Envoyer!" />
+                    </p>
+                </fieldset>
+            </form><!-- end #contact-form -->
+
+        </div><!-- end .span6 -->
+    </div><!-- end .row -->
+
+
+
+
+{% endblock %}

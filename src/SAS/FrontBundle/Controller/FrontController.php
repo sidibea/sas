@@ -25,4 +25,11 @@ class FrontController extends Controller {
 
     }
 
+    public function contactAction(){
+
+        return $this->render('SASFrontBundle:Front:contact.html.twig');
+
+
+    }
+
 }
