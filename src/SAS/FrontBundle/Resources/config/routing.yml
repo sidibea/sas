@@ -10,3 +10,6 @@ sas_front_about:
 sas_front_contact:
     path:     /{_locale}/contact
     defaults: { _controller: SASFrontBundle:Front:contact }
+sas_front_gallery:
+    path:     /{_locale}/gallery
+    defaults: { _controller: SASFrontBundle:Front:gallery }

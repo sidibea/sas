@@ -29,6 +29,10 @@ class FrontController extends Controller {
 
         return $this->render('SASFrontBundle:Front:contact.html.twig');
 
+    }
+
+    public function galleryAction(){
+        return $this->render('SASFrontBundle:Front:gallery.html.twig');
 
     }
 

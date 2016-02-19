@@ -1,0 +1,439 @@
+{% extends 'SASFrontBundle::layout.html.twig' %}
+
+{% block title %} Gallerie Photo {% endblock %}
+
+{% block content %}
+    <div id="page-header" style="background-image:url({{ asset('front/_content/backgrounds/1920x250-3.jpg') }}); margin-bottom:0;">
+
+        <div class="row">
+            <div class="span12">
+
+                <h3>Gallerie Photo</h3>
+
+            </div><!-- end .span12 -->
+        </div><!-- end .row -->
+
+    </div><!--end #page-header -->
+
+    <div class="portfolio-strip masonry portfolio-isotope fixed">
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/1.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/1.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>Brochure</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/2.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/2.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>Relaxing</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/3.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/3.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>Traffic</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/4.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/4.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+    <div class="item">
+
+        <div class="portfolio-item">
+
+            <div class="portfolio-item-preview">
+
+                {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                <img src="{{ 'gallerie/5.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                <div class="portfolio-item-overlay"></div>
+
+                <div class="portfolio-item-overlay-actions">
+
+                    <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/5.jpg') }}">
+                        <span>+</span>
+                    </a>
+
+                    <a class="portfolio-item-link" href="#">
+                        <span>&gt;</span>
+                    </a>
+
+                </div><!-- end .portfolio-item-overlay-actions -->
+
+            </div><!-- end .portfolio-item-preview -->
+
+            <div class="portfolio-item-description">
+
+                <h4>The way</h4>
+
+            </div><!-- end .portfolio-item-description -->
+
+        </div><!-- end .portfolio-item -->
+
+    </div><!-- end .item -->
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/6.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/6.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/7.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/7.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/8.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/8.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/9.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/9.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/10.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/10.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/11.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/11.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+        <div class="item">
+
+            <div class="portfolio-item">
+
+                <div class="portfolio-item-preview">
+
+                    {% set runtimeConfig = {"thumbnail": {"size": [480, 320] }} %}
+                    <img src="{{ 'gallerie/12.jpg' | imagine_filter('my_thumb', runtimeConfig) }}" />
+
+                    <div class="portfolio-item-overlay"></div>
+
+                    <div class="portfolio-item-overlay-actions">
+
+                        <a class="portfolio-item-zoom magnificPopup-gallery" href="{{ asset('gallerie/12.jpg') }}">
+                            <span>+</span>
+                        </a>
+
+                        <a class="portfolio-item-link" href="#">
+                            <span>&gt;</span>
+                        </a>
+
+                    </div><!-- end .portfolio-item-overlay-actions -->
+
+                </div><!-- end .portfolio-item-preview -->
+
+                <div class="portfolio-item-description">
+
+                    <h4>The way</h4>
+
+                </div><!-- end .portfolio-item-description -->
+
+            </div><!-- end .portfolio-item -->
+
+        </div><!-- end .item -->
+
+  </div>
+
+{% endblock %}
