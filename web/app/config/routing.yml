@@ -1,0 +1,6 @@
+sas_front:
+    resource: "@SASFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"

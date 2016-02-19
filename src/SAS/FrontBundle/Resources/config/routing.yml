@@ -1,0 +1,9 @@
+sas_front_homepage:
+    path:     /{_locale}
+    defaults: { _controller: SASFrontBundle:Front:index }
+sas_front_homepage2:
+    path:     /
+    defaults: { _controller: SASFrontBundle:Front:index }
+sas_front_about:
+    path:     /{_locale}/about
+    defaults: { _controller: SASFrontBundle:Front:about }
